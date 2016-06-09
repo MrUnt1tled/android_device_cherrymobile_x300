@@ -1,7 +1,7 @@
 # inherit from the proprietary version
--include vendor/huawei/g750t01/BoardConfigVendor.mk
+-include vendor/cherrymobile/x300/BoardConfigVendor.mk
 
-LOCAL_PATH := device/huawei/g750t01
+LOCAL_PATH := device/cherrymobile/x300
 
 # Board
 TARGET_BOARD_PLATFORM := mt6592
@@ -27,7 +27,7 @@ DONT_DEXPREOPT_PREBUILTS := true
 TARGET_BOOTLOADER_BOARD_NAME := mt6592
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := g750t01,G750-T01
+TARGET_OTA_ASSERT_DEVICE := x300,X300
 
 # MTK HARDWARE
 BOARD_HAS_MTK_HARDWARE := true
@@ -38,7 +38,7 @@ COMMON_GLOBAL_CPPFLAGS += -DMTK_HARDWARE
 BLOCK_BASED_OTA :=false
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/huawei/g750t01/ril/
+BOARD_RIL_CLASS := ../../../device/cherrymobile/x300/ril/
 
 BOARD_CONNECTIVITY_VENDOR := MediaTek
 BOARD_CONNECTIVITY_MODULE := conn_soc
