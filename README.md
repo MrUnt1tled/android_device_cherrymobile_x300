@@ -1,7 +1,7 @@
 ----Thanks for xen0n, who are contributing to the working CyanogenMod of MTK hardware.---
 # CyanogenMod 13.0
 
-This is a device tree for huawei g750t01 which is based on MT6592 SoC. Powered by ferhung.
+This is a device tree for FlareS3 Power which is based on MT6592 SoC. Powered by JRC.
 # Build
 
 * init
@@ -14,7 +14,7 @@ This is a device tree for huawei g750t01 which is based on MT6592 SoC. Powered b
         
         # source build/envsetup.sh
 
-        # brunch cm_g750t01-userdebug
+        # brunch cm_x300-userdebug
 
 # Limitations
 
